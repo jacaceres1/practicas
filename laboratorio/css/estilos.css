@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contedor_general {
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.cabecera {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(15, 118, 286);
+  line-heigth: 90px;
+}

@@ -1,0 +1,75 @@
+.contenedor {
+  background-color: cornflowerblue;
+  display: inline-flex;
+  /* propiedad principal para tener un flex */
+  /* primero usar display: flex o display: inline-flex */
+  /* direccion al flujo  */
+  /* row(por defecto), row-rever invierte en forma horizontal los elementos */
+  /* colum colocar de forma vertical los elementos */
+  /* colum-reverse coloca de forma vertical de forma inverrtida los elementos */
+  flex-direction: column-reverse;
+  width: 100%;
+  height: 250px;
+}
+
+.contenedor-wrap {
+  background-color: cornflowerblue;
+  display: flex;
+  /* propiedad principal para tener un flex */
+  /* primero usar display: flex o display: inline-flex */
+  /* direccion al flujo  */
+  /* row(por defecto), row-rever invierte en forma horizontal los elementos */
+  /* colum colocar de forma vertical los elementos */
+  /* colum-reverse coloca de forma vertical de forma inverrtida los elementos */
+  flex-wrap: nowrap;
+  width: auto;
+  height: auto;
+}
+
+.contenedor-flow {
+  background-color: cornflowerblue;
+  display: flex;
+  /* flex-flow : <flex-direction> <flex-wrap> */
+  flex-flow: column nowrap;
+  width: 210px;
+  height: auto;
+}
+
+.contenedor-content {
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+}
+
+div {
+  border: 1px solid black;
+  background-color: grey;
+  color: white;
+  width: 10%;
+  height: 70%;
+  font-size: 40px;
+  padding: 20px;
+}
+
+img {
+  width: 350px;
+  height: 250px;
+}
+
+.item1_grow {
+  flex-grow:1;
+}
+
+.item2_grow {
+  flex-grow:4;
+}
+
+.item3_grow {
+  flex-grow:1;
+}
+
+.item4_grow {
+  flex-grow:8;
+}

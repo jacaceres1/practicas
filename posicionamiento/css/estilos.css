@@ -1,0 +1,46 @@
+#cuadro {
+  height: 120px;
+  width: 120px;
+  background-color: aquamarine;
+  position: relative;
+  top: 200px;
+  left: 400px;
+}
+
+#cuadro2 {
+  border: 1px solid red;
+}
+
+#circulo {
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  top: 90px;
+  left: 90px;
+}
+
+img {
+  max-width: 20%;
+  max-height: 20%;
+}
+
+.desplazada {
+  position: relative;
+  top: 3rem;
+}
+
+#margen-border{
+  border: 2px solid grey;
+  padding: 1em;
+  margin: 1em 0  1em 4em;
+  width: 300px
+  position: relative;
+}
+
+#margen-border img{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}

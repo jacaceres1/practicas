@@ -1,0 +1,61 @@
+div {
+  /* Ponemos un alto mínimo, por defecto es 0 */
+  min-height: 200px;
+  /* Dibujamos un borde para ver límites */
+  border: 2px solid black;
+}
+
+#header, #page, #footer {
+  background: Red;
+}
+
+/* #menu, #content {
+  /* Necesario para que los elementos estén en horizontal
+*/
+/* display: inline-block;
+} */
+#page {
+  display: flex;
+}
+
+#menu {
+  background: blue;
+  width: 30%;
+}
+
+#content {
+  background: lightgrey;
+  width: 70%;
+}
+
+.picture {
+  min-height: 200px;
+  /* Por defecto, height es 0 */
+  background: grey;
+  /* Simplemente, para verlo visualmente */
+  max-width: 1000px;
+  min.-width: 700px;
+}
+
+.image {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  #header, #page, #footer {
+    background: greenyellow;
+  }
+}
+
+  @media screen and (min-width: 480px) and (max-width: 1024px){
+    #header, #page, #footer {
+      background: yellow;
+    }
+  }

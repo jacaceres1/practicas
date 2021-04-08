@@ -1,0 +1,15 @@
+* {
+  background-color:rgb(13, 205, 27);
+}
+
+p {
+	font-size: 5rem;
+	text-transform: uppercase;
+	margin-top: 16rem;
+	text-align: center;
+}
+
+h1{
+	text-transform: uppercase;
+	text-align: center;
+}

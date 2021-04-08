@@ -1,0 +1,24 @@
+.lateral {
+  width: 200px;
+  height: 45px;
+  background-color: darkred;
+}
+
+.destacado {
+  /* margin-left: 2em;
+  margin-top: 2em;
+  margin-bottom: 5em; */
+  margin:
+    /*top*/
+    2em
+    /* rigth */
+    4px
+    /*botton  */
+    5rem
+    /* left */
+    2em;
+}
+
+.ejemplo_padding{
+  padding: 20px 15px 10px 5px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formularios</title>
+  </head>
+  <body>
+    <form method="post" action="respuestas.php">
+      <label>Nombre:</label>
+      <p><input id="nombre" placeholder="nombre completo" name="nombre"></p>
+      <label>Apellido:</label>
+      <p><input id="apellido" placeholder="Apellido completo" name="apellido"></p>
+      <label>Edad:</label>
+      <p><input type="number" name="edad"></p>
+      <label >Email:</label>
+      <p><input type="Email" id="email" placeholder="ejemplo@email.com" name="email"></p>
+      <label>Año de nacimiento</label>
+      <p><input type="number" name="nacido" min="1900"></p>
+      <p>Sexo:
+        <input type="radio" name="hm" value="h"> Hombre
+        <input type="radio" name="hm" value="m"> Mujer
+      </p>
+      <label>Hobbies</label>
+      <p>
+      <input type="checkbox" name="casilla" value="hola">Futbol
+      <input type="checkbox" name="casilla" value="hola"> Básquet
+      <input type="checkbox" name="casilla" value="hola"> Tenis
+      <input type="checkbox" name="casilla" value="hola">Natación
+      <input type="checkbox" name="casilla" value="hola"> Ciclismo
+      </p>
+    </form>
+  </body>
+</html>

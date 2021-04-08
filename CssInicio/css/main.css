@@ -1,0 +1,32 @@
+h1, h2{
+    color: blue;
+}
+p {
+    color: black;
+}
+/*selector descendiente*/
+p span{
+    color:red;
+}
+/*selector de clase*/
+.destacado{
+    color: brown;
+    font-family: 'Courier New';
+    font-size: 15px;
+}
+
+.error{ color: darkred;}
+.especial{font-weight: bold;}
+
+#destacado{
+  color: darkslategrey;
+  font-size: 50px;
+}
+
+.aviso .destacado{
+  color: darkturquoise;
+}
+
+div.aviso p.destacado{
+  colro: forestgreen;
+}
